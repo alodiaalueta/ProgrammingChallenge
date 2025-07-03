@@ -11,15 +11,17 @@ public class ScoreToGradeFtoA {
         int score = scanner.nextInt();
 
         if (score >= 90) {
-            System.out.println("\nScore " + score + " is Grade A\n");
+            System.out.println("\nYou scored " + score + ", your Grade is A.\n");
         } else if (score >= 80) {
-            System.out.println("Grade: B");
+            System.out.println("\nYou scored " + score + ", your Grade is B.\n");
         } else if (score >= 70) {
-            System.out.println("Grade: C");
+            System.out.println("\nYou scored " + score + ", your Grade is C.\n");
         } else if (score >= 60) {
-            System.out.println("Grade: D");
+            System.out.println("\nYou scored " + score + ", your Grade is D.\n");
+        } else if (score >= 60) {
+            System.out.println("\nYou scored " + score + ", your Grade is E.\n");
         } else {
-            System.out.println("Grade: F");
+            System.out.println("\nYou scored " + score + ", your Grade is F.\n");
         }
 
         scanner.close();
