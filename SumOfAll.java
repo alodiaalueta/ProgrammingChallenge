@@ -18,7 +18,8 @@ public class SumOfAll {
                 int number = Integer.parseInt(numStr);
                 sum += number;
             } catch (NumberFormatException e) {
-                System.out.println(numStr + " IS INVALID ❌ ");
+                System.out.print("Invalid Integer...  ");
+                System.out.println(numStr);
             }
         }
 
