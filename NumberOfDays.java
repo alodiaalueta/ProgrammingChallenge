@@ -19,7 +19,7 @@ public class NumberOfDays {
                 break;
             case 2:
                 monthName = "February";
-                days = 28; // assuming non-leap year
+                days = 28; 
                 break;
             case 3:
                 monthName = "March";
